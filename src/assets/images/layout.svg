@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>layout</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="The-Icon-of---Actions" transform="translate(-852.000000, -1096.000000)" fill="#8857FF" fill-rule="nonzero">
+            <g id="ico-/-24-/-actions-/-layout" transform="translate(850.000000, 1092.000000)">
+                <path d="M10,5 L10,19 C10,19.5522847 9.55228475,20 9,20 L3,20 C2.44771525,20 2,19.5522847 2,19 L2,5 C2,4.44771525 2.44771525,4 3,4 L9,4 C9.55228475,4 10,4.44771525 10,5 Z M15,13 L13,13 C12.4477153,13 12,13.4477153 12,14 L12,19 C12,19.5522847 12.4477153,20 13,20 L15,20 C15.5522847,20 16,19.5522847 16,19 L16,14 C16,13.4477153 15.5522847,13 15,13 Z M21,13 L19,13 C18.4477153,13 18,13.4477153 18,14 L18,19 C18,19.5522847 18.4477153,20 19,20 L21,20 C21.5522847,20 22,19.5522847 22,19 L22,14 C22,13.4477153 21.5522847,13 21,13 Z M21,4 L13,4 C12.4477153,4 12,4.44771525 12,5 L12,10 C12,10.5522847 12.4477153,11 13,11 L21,11 C21.5522847,11 22,10.5522847 22,10 L22,5 C22,4.44771525 21.5522847,4 21,4 Z" id="Icon-color"></path>
+            </g>
+        </g>
+    </g>
+</svg>

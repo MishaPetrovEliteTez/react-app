@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="11px" viewBox="0 0 10 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="new" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8-Copy-14" transform="translate(-309.000000, -197.000000)" fill="#0076FF">
+            <g id="Group-2" transform="translate(13.000000, 152.000000)">
+                <path d="M302.394427,46.7888544 L306.276393,54.5527864 C306.523382,55.0467649 306.323158,55.6474379 305.82918,55.8944272 C305.690324,55.9638549 305.537211,56 305.381966,56 L297.618034,56 C297.065749,56 296.618034,55.5522847 296.618034,55 C296.618034,54.8447549 296.654179,54.6916418 296.723607,54.5527864 L300.605573,46.7888544 C300.852562,46.2948759 301.453235,46.0946515 301.947214,46.3416408 C302.140741,46.4384045 302.297663,46.595327 302.394427,46.7888544 Z" id="Triangle" transform="translate(301.500000, 50.500000) rotate(-270.000000) translate(-301.500000, -50.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

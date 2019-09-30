@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="65px" viewBox="0 0 59 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M32,1.44337567 L52.5477494,13.3066243 C54.0947548,14.1997883 55.0477494,15.8504234 55.0477494,17.6367513 L55.0477494,41.3632487 C55.0477494,43.1495766 54.0947548,44.8002117 52.5477494,45.6933757 L32,57.5566243 C30.4529946,58.4497883 28.5470054,58.4497883 27,57.5566243 L6.45225059,45.6933757 C4.9052452,44.8002117 3.95225059,43.1495766 3.95225059,41.3632487 L3.95225059,17.6367513 C3.95225059,15.8504234 4.9052452,14.1997883 6.45225059,13.3066243 L27,1.44337567 C28.5470054,0.550211698 30.4529946,0.550211698 32,1.44337567 Z" id="path-1"></path>
+        <filter x="-5.2%" y="-7.2%" width="110.3%" height="121.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.139209692 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-page" transform="translate(-178.000000, -694.000000)">
+            <g id="Group-11" transform="translate(178.000000, 695.000000)">
+                <g id="Polygon">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#0076FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="+" font-family="Helvetica" font-size="25" font-weight="normal" letter-spacing="-0.3571428" fill="#FFFFFF">
+                    <tspan x="21.3787667" y="35">+</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

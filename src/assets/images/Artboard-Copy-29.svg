@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1242px" height="2208px" viewBox="0 0 1242 2208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy 29</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1249" height="2690"></rect>
+    </defs>
+    <g id="Artboard-Copy-29" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(0.000000, -462.000000)">
+            <g id="Background/Pattern-4">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="BG" fill="#0076FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <circle id="Circle-4" fill-opacity="0.16" fill="#000000" fill-rule="evenodd" style="mix-blend-mode: overlay;" mask="url(#mask-2)" cx="1094.2094" cy="535.115688" r="352.5"></circle>
+                <circle id="Circle-4-Copy" fill-opacity="0.16" fill="#000000" fill-rule="evenodd" style="mix-blend-mode: overlay;" mask="url(#mask-2)" cx="1188.76129" cy="2570.83239" r="641.5"></circle>
+                <circle id="Circle-3" fill="#7396FD" fill-rule="evenodd" style="mix-blend-mode: overlay;" mask="url(#mask-2)" cx="436.15873" cy="450.863431" r="198"></circle>
+                <circle id="Circle-2" fill="#7396FD" fill-rule="evenodd" style="mix-blend-mode: overlay;" mask="url(#mask-2)" cx="504.022589" cy="1269.85609" r="70.5"></circle>
+                <circle id="Circle-1" fill-opacity="0.16" fill="#000000" fill-rule="evenodd" style="mix-blend-mode: overlay;" mask="url(#mask-2)" cx="-6.86263736" cy="1318.43397" r="142.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

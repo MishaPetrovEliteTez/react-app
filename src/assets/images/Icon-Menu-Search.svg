@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.2142857,5.10381356 C10.2142857,7.92297458 7.92721429,10.2076271 5.10714286,10.2076271 C2.28707143,10.2076271 0,7.92297458 0,5.10381356 C0,2.28465254 2.28707143,0 5.10714286,0 C7.92721429,0 10.2142857,2.28465254 10.2142857,5.10381356 Z" id="path-1"></path>
+    </defs>
+    <g id="new" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="iPhone-8-Copy-27" transform="translate(-29.000000, -624.000000)">
+            <g id="Group-26" transform="translate(0.000000, 595.000000)">
+                <g id="Group-9" transform="translate(30.000000, 30.000000)">
+                    <g id="Group-4">
+                        <path d="M13,12.9915254 L9.28571429,9.27966102" id="Stroke-19" stroke="#A8D0FF" stroke-width="2"></path>
+                        <g id="Stroke-17" stroke="#353B50">
+                            <use stroke-width="2" xlink:href="#path-1"></use>
+                            <use stroke-width="1" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
