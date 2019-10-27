@@ -4,6 +4,9 @@ import './App.css';
 import Welcome from "./components/Welcome";
 import Login from "./components/Login";
 import Wallet from "./components/Wallet";
+import Import from "./components/Import";
+import Export from "./components/Export";
+import Send from "./components/Send";
 
 /*function App() {
   return (
@@ -30,7 +33,7 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            currentPage: "Welcome"
+            currentPage: "Send"
         };
         this.changeState = this.changeState.bind(this)
     }
@@ -50,6 +53,12 @@ class App extends Component {
                 return <Login/>;
             case "Wallet":
                 return <Wallet/>;
+            case "Import":
+                return <Import/>;
+            case "Export":
+                return <Export/>;
+            case "Send":
+                return <Send/>;
             default:
                 return <Welcome/>
         }
