@@ -6,8 +6,7 @@ import WebFont from 'webfontloader';
 
 WebFont.load({google: {families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Quicksand:300,regular,500,700"]}});
 
-class Wallet extends Component {
-    render() {
+const Wallet = (props) => {
         return (
             <div className="body">
                 <div className="phone-app">
@@ -107,8 +106,7 @@ class Wallet extends Component {
                     </div>
                 </div>
             </div>)
-    }
-}
+};
 
 
 export default Wallet

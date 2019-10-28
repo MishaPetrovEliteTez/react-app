@@ -14,6 +14,9 @@
     "eztz-lib": "^0.1.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-navigation": "^4.0.10",
+    "react-navigation-stack": "^1.10.3",
     "react-scripts": "^3.2.0",
     "wait-on": "^3.3.0",
     "webfontloader": "^1.6.28"

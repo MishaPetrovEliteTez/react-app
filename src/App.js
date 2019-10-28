@@ -7,6 +7,8 @@ import Wallet from "./components/Wallet";
 import Import from "./components/Import";
 import Export from "./components/Export";
 import Send from "./components/Send";
+import Page1 from "./components/Page1";
+import Page2 from "./components/Page2";
 
 /*function App() {
   return (
@@ -33,16 +35,16 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            currentPage: "Send"
+            currentPage: "Login"
         };
         this.changeState = this.changeState.bind(this)
     }
 
-    changeState = () => {
+    changeState = (state) => {
         this.setState(() => {
           console.log("click");
             return {
-                currentPage: "Login"
+                currentPage: state
             }
         })
     };
@@ -50,7 +52,7 @@ class App extends Component {
     render() {
         switch (this.state.currentPage) {
             case "Login":
-                return <Login/>;
+                return <Login changeState={this.changeState}/>;
             case "Wallet":
                 return <Wallet/>;
             case "Import":
