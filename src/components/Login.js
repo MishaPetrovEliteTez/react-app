@@ -56,7 +56,7 @@ const Login = (props) => {
                                                                                           id="New-Password"/></div>
                                     </div>
                                 </div>
-                                <a href="#" onClick={() => props.changeState("Wallet")} className="button_main w-button">Login</a>
+                                <a href="#" onClick={() => props.changeState("Account")} className="button_main w-button">Login</a>
                                 <div className="div-block-57">
                                     <a href="forgot-password.html" className="link-block-12 w-inline-block">
                                         <div className="text-block-15 white">Forgot Password</div>

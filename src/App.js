@@ -7,8 +7,11 @@ import Wallet from "./components/Wallet";
 import Import from "./components/Import";
 import Export from "./components/Export";
 import Send from "./components/Send";
-import Page1 from "./components/Page1";
-import Page2 from "./components/Page2";
+import Account from "./components/Account";
+
+import WebFont from 'webfontloader';
+
+WebFont.load({google: {families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Quicksand:300,regular,500,700"]}});
 
 /*function App() {
   return (
@@ -53,6 +56,8 @@ class App extends Component {
         switch (this.state.currentPage) {
             case "Login":
                 return <Login changeState={this.changeState}/>;
+            case "Account":
+                return <Account changeState={this.changeState}/>;
             case "Wallet":
                 return <Wallet/>;
             case "Import":
