@@ -3,11 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 import Welcome from "./components/Welcome";
 import Login from "./components/Login";
-import Wallet from "./components/Wallet";
+import Wallet from "./components/main/Wallet";
 import Import from "./components/Import";
 import Export from "./components/Export";
 import Send from "./components/Send";
-import Account from "./components/Account";
+import Main from "./components/main/Main";
 
 import WebFont from 'webfontloader';
 
@@ -38,7 +38,10 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            currentPage: "Login"
+            currentPage: {
+                page: "Login",
+                subPage: ""
+            }
         };
         this.changeState = this.changeState.bind(this)
     }
@@ -53,11 +56,11 @@ class App extends Component {
     };
 
     render() {
-        switch (this.state.currentPage) {
+        switch (this.state.currentPage.page) {
             case "Login":
                 return <Login changeState={this.changeState}/>;
-            case "Account":
-                return <Account changeState={this.changeState}/>;
+            case "Main":
+                return <Main changeState={this.changeState} state={this.state}/>;
             case "Wallet":
                 return <Wallet/>;
             case "Import":

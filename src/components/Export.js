@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../assets/template.css'
 
-import {getWalletsList} from "./libs/FileService";
+import {getWalletsList} from "../libs/FileService";
 
 class Export extends Component {
     constructor() {

@@ -1,7 +1,6 @@
 import React from 'react';
-import '../assets/css/common.css'
-import '../assets/css/chain-wallet-extension.webflow.css'
-import ImageSvg from '../assets/images/undraw_mention_6k5d.svg';
+import '../../assets/css/common.css'
+import '../../assets/css/chain-wallet-extension.webflow.css'
 
 import WebFont from 'webfontloader';
 
@@ -155,26 +154,6 @@ const Account = (props) => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div className="menu-main">
-                    <div className="w-layout-grid grid-6">
-                        <a href="my-relations.html" className="icon_wrap w-inline-block">
-                            <img src="images/wallet.svg" height="15" alt="" className="image-13"/>
-                            <div className="text-block-22">Wallet</div>
-                        </a>
-                        <a href="menu-2.html" className="icon_wrap w-inline-block">
-                            <img src="images/layout.svg" height="15" alt="" className="image-13"/>
-                            <div className="text-block-22">Delegate</div>
-                        </a>
-                        <a href="menu-3.html" className="icon_wrap w-inline-block">
-                            <img src="images/time_30_s.svg" height="15" alt="" className="image-13"/>
-                            <div className="text-block-22">Manage</div>
-                        </a>
-                        <a href="menu-4.html" className="icon_wrap off w-inline-block w--current">
-                            <img src="images/pet.svg" height="15" alt="" className="image-13"/>
-                            <div className="text-block-22">Account</div>
-                        </a>
                     </div>
                 </div>
             </div>

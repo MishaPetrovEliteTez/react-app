@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import '../assets/template.css'
 
 // import ezdun from './libs/crypto/ezdun/src/main'
-import eztz from './libs/crypto/eztz/src/main'
+import eztz from '../libs/crypto/eztz/src/main'
 
-import {saveKeys} from "./libs/FileService";
+import {saveKeys} from "../libs/FileService";
 // import {rpc, defaultProvider, crypto, node} from "ezdun-lib"
 
 class Send extends Component {
@@ -83,7 +83,7 @@ class Send extends Component {
         console.log(eztz.eztz.node.activeProvider);
 
         eztz.eztz.node.debugMode = true;
-        
+
         // todo: DUNE alphanet-NODE
         // eztz.eztz.node.setProvider('http://testnet-node.dunscan.io');
 

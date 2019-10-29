@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../assets/template.css'
 
-import {saveKeys} from "./libs/FileService";
+import {saveKeys} from "../libs/FileService";
 import {crypto} from "eztz-lib"
 
 class Import extends Component {
