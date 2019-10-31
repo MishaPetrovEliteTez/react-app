@@ -9,7 +9,7 @@ import ImageFrame from "../../assets/images/frame.png";
 WebFont.load({google: {families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Quicksand:300,regular,500,700"]}});
 
 const Delegate = (props) => {
-    return (<div className="phone-app">
+    return (
         <div className="container">
             <div data-collapse="all" data-animation="default" data-duration="400" className="nav04_mobile w-nav">
                 <div className="nav04_wrap">
@@ -39,7 +39,7 @@ const Delegate = (props) => {
                     </div>
                     <div className="tabs-content-2 w-tab-content">
                         <div data-w-tab="Receive" className="w-tab-pane w--tab-active"
-                             style={{opacity:1, transition: 'opacity 300ms ease 0s'}}>
+                             style={{opacity: 1, transition: 'opacity 300ms ease 0s'}}>
                             <div className="card-id-header">
                                 <div className="big-card-color white-txt bg-delegation">
                                     <div className="div-block-93">
@@ -739,8 +739,7 @@ const Delegate = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
-    </div>)
+        </div>)
 };
 
 

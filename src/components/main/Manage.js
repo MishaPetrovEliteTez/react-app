@@ -7,7 +7,7 @@ import WebFont from 'webfontloader';
 WebFont.load({google: {families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Quicksand:300,regular,500,700"]}});
 
 const Manage = (props) => {
-    return (<div className="phone-app">
+    return (
         <div className="container">
             <div data-collapse="all" data-animation="default" data-duration="400" className="nav04_mobile w-nav">
                 <div className="nav04_wrap">
@@ -18,7 +18,9 @@ const Manage = (props) => {
                         <div className="m11_tag_text_02">Switch to Dune</div>
                     </a>
                 </div>
-                <div className="w-nav-overlay" data-wf-ignore=""></div>
+                <div className="w-nav-overlay" data-wf-ignore="">
+
+                </div>
             </div>
             <div className="contact-container">
                 <div data-duration-in="300" data-duration-out="100" className="tabs-2 w-tabs">
@@ -302,8 +304,7 @@ const Manage = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
-    </div>)
+        </div>)
 };
 
 

@@ -15,22 +15,22 @@ WebFont.load({google: {families: ["Open Sans:300,300italic,400,400italic,600,600
 const Main = (props) => {
     switch (props.state.currentPage.subPage) {
         case "Account":
-            return <div>
+            return <div className="phone-app">
                 <Account changeState={props.changeState}/>
                 <MainMenu currentPage={props.state.currentPage} changeState={props.changeState}/>
             </div>;
         case "Wallet":
-            return <div>
+            return <div className="phone-app">
                 <Wallet changeState={props.changeState}/>
                 <MainMenu currentPage={props.state.currentPage} changeState={props.changeState}/>
             </div>;
         case "Delegate":
-            return <div>
+            return <div className="phone-app">
                 <Delegate/>
                 <MainMenu currentPage={props.state.currentPage} changeState={props.changeState}/>
             </div>;
         case "Manage":
-            return <div>
+            return <div className="phone-app">
                 <Manage/>
                 <MainMenu currentPage={props.state.currentPage} changeState={props.changeState}/>
             </div>;
